@@ -5,6 +5,163 @@
 	(uuid "6a08e6fd-d096-4b1e-b5a5-e399c1ff7184")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_ST_STM32WB:STM32WB55CEUx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1330,167 +1487,6 @@
 				)
 			)
 		)
-		(symbol "SparkFun-Capacitor:1.0uF_0603_16V_10%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1.0uF"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "CAP-13930"
-				(at -1.27 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "16V"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "10%"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SparkFun cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1.0uF_0603_16V_10%_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1.0uF_0603_16V_10%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SparkFun-Capacitor:4.7uF_0603_35V_20%"
 			(pin_numbers hide)
 			(pin_names
@@ -1870,10 +1866,22 @@
 		)
 	)
 	(junction
+		(at 77.47 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06bcd6cc-956d-43da-ab5e-38c260accff9")
+	)
+	(junction
 		(at 58.42 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13527b57-d462-40c2-8d08-2b69aa8a311d")
+	)
+	(junction
+		(at 78.74 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "145b9a48-91ee-4468-bdda-bfd236f5386b")
 	)
 	(junction
 		(at 38.1 77.47)
@@ -1882,16 +1890,22 @@
 		(uuid "16f7af02-3854-49cf-b142-0a8202d71826")
 	)
 	(junction
-		(at 97.79 20.32)
+		(at 77.47 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "20815500-d217-4811-9de3-01bdb1ec0bc1")
+		(uuid "207a99d8-1d8f-4067-b953-81ad776dbcd9")
 	)
 	(junction
 		(at 118.11 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cd10fa7-7c9a-425e-ba95-45d580c221dd")
+	)
+	(junction
+		(at 118.11 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3738caf5-9fa4-4665-8c4b-4c26de49a29b")
 	)
 	(junction
 		(at 58.42 77.47)
@@ -1906,16 +1920,16 @@
 		(uuid "54d9ecff-659a-4a1d-8456-8c234f7466a1")
 	)
 	(junction
-		(at 101.6 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ef3fbe4-7d88-48ec-97b6-d293d96d3b4d")
-	)
-	(junction
 		(at 45.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66664bdb-1d3d-4c17-8dda-00e29ea5ff5e")
+	)
+	(junction
+		(at 85.09 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67339798-ec48-4c77-a2d6-5b3115550536")
 	)
 	(junction
 		(at 72.39 77.47)
@@ -1966,6 +1980,12 @@
 		(uuid "db1874ca-553c-4f5a-8e76-f9602e971c65")
 	)
 	(junction
+		(at 110.49 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8b83599-5c94-42c2-b6cd-23b756507e5f")
+	)
+	(junction
 		(at 102.87 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1978,10 +1998,32 @@
 		(uuid "f13f58a4-3c9d-4dad-8476-e9deed85f074")
 	)
 	(junction
+		(at 161.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f44aac7e-636a-4aa3-b928-478d68fd3e7d")
+	)
+	(junction
 		(at 113.03 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f95cd988-6239-4f8c-a57d-ad2fe1957dd2")
+	)
+	(junction
+		(at 72.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd8373f7-0384-4424-91dc-830c703521aa")
+	)
+	(wire
+		(pts
+			(xy 105.41 91.44) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0187d3b8-de66-4d19-8c78-79d8a353fa27")
 	)
 	(wire
 		(pts
@@ -1995,13 +2037,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 31.75) (xy 97.79 20.32)
+			(xy 77.47 57.15) (xy 77.47 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04320ee3-f8a6-4ec6-9746-e093abb3ae0e")
+		(uuid "063832c4-c9cc-46de-b0d6-513c13623d4f")
 	)
 	(wire
 		(pts
@@ -2022,16 +2064,6 @@
 			(type default)
 		)
 		(uuid "0ca59d20-bea1-4553-8edc-c241cb346947")
-	)
-	(wire
-		(pts
-			(xy 101.6 20.32) (xy 97.79 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119b1429-af3f-4e9e-910e-5aba209410d4")
 	)
 	(wire
 		(pts
@@ -2062,6 +2094,16 @@
 			(type default)
 		)
 		(uuid "16cae3aa-bdd6-4d16-8266-46a546b42e38")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 118.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a28eebc-9834-469a-9317-adb226bad757")
 	)
 	(wire
 		(pts
@@ -2115,13 +2157,33 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 20.32) (xy 101.6 20.32)
+			(xy 85.09 67.31) (xy 85.09 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3b4e87df-5512-4bb2-b248-06e4365e8b7a")
+		(uuid "3b8c82bb-56d8-4781-8b21-26a97bba1c7a")
+	)
+	(wire
+		(pts
+			(xy 77.47 57.15) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3fc137-93bb-492c-bd77-83451e70361f")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdf34d6-7add-4e87-8512-7df8333a3480")
 	)
 	(wire
 		(pts
@@ -2132,6 +2194,16 @@
 			(type default)
 		)
 		(uuid "41a8ae33-c6df-43d7-9e8b-9f9f11d2d3e1")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 72.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "443752cd-6c69-4b12-8619-be34ae4e2dc3")
 	)
 	(wire
 		(pts
@@ -2155,6 +2227,26 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b66ee31-6cad-4cd2-b38a-565e9404adbf")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6e7ea1-3698-4f1b-8575-5e9d5ea256a6")
+	)
+	(wire
+		(pts
 			(xy 38.1 77.47) (xy 45.72 77.47)
 		)
 		(stroke
@@ -2165,7 +2257,17 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 77.47) (xy 102.87 77.47)
+			(xy 85.09 69.85) (xy 77.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ef8650-6d0b-43d6-8e55-d41acbc769f7")
+	)
+	(wire
+		(pts
+			(xy 113.03 77.47) (xy 110.49 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2175,13 +2277,53 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 72.39 77.47)
+			(xy 102.87 77.47) (xy 78.74 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "54f37058-8572-47f0-b01e-c39a39319722")
+	)
+	(wire
+		(pts
+			(xy 110.49 77.47) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f3653e-2371-44dc-9e94-0f9d8f03ca74")
+	)
+	(wire
+		(pts
+			(xy 165.1 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604a8758-3189-45ac-9f7f-f7b022a27c60")
+	)
+	(wire
+		(pts
+			(xy 78.74 77.47) (xy 72.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64726d82-d6a5-40f0-848a-fe63a91212db")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 118.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6891fb10-4ff2-4f35-9868-7f8e0179fc11")
 	)
 	(wire
 		(pts
@@ -2195,13 +2337,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 21.59) (xy 101.6 20.32)
+			(xy 110.49 77.47) (xy 102.87 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72512250-e2c1-4564-914d-44b0d0c1ff44")
+		(uuid "6eda2fe9-0b69-4b15-8cb3-704806f4be1b")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7051056a-8ff0-4f3c-9fea-7f1961274dcb")
 	)
 	(wire
 		(pts
@@ -2225,13 +2377,13 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 39.37) (xy 99.06 34.29)
+			(xy 107.95 91.44) (xy 107.95 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "96080351-0634-4a5b-a4da-bc27c0c12c6b")
+		(uuid "91617cb1-581b-4e3d-840c-2e6ca27659d7")
 	)
 	(wire
 		(pts
@@ -2245,13 +2397,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 29.21) (xy 101.6 31.75)
+			(xy 85.09 57.15) (xy 85.09 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e31c585-1f85-4a5c-ab91-6e21e08c0caf")
+		(uuid "9c7862f6-aa92-4080-a816-69d436bab104")
+	)
+	(wire
+		(pts
+			(xy 133.35 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d8dbb72-f112-40a1-aed5-e4314b673a6d")
 	)
 	(wire
 		(pts
@@ -2282,16 +2444,6 @@
 			(type default)
 		)
 		(uuid "a6b86e0b-bf35-4292-85c2-c454cc161cfd")
-	)
-	(wire
-		(pts
-			(xy 97.79 20.32) (xy 97.79 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e6cc31-733e-4ebc-9fe6-bcf8db54b5d9")
 	)
 	(wire
 		(pts
@@ -2345,16 +2497,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 29.21) (xy 109.22 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af969eb2-2ec3-4345-998a-3c9816b1dec3")
-	)
-	(wire
-		(pts
 			(xy 118.11 77.47) (xy 115.57 77.47)
 		)
 		(stroke
@@ -2362,6 +2504,16 @@
 			(type default)
 		)
 		(uuid "af9ac5d6-d65c-41ac-912e-59a67cb7c132")
+	)
+	(wire
+		(pts
+			(xy 78.74 77.47) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b052292e-d538-4f5e-b828-0ef3be5a01b5")
 	)
 	(wire
 		(pts
@@ -2375,16 +2527,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 34.29) (xy 96.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68fcd48-63aa-404f-993c-c206b23811a5")
-	)
-	(wire
-		(pts
 			(xy 45.72 87.63) (xy 45.72 88.9)
 		)
 		(stroke
@@ -2392,6 +2534,16 @@
 			(type default)
 		)
 		(uuid "be0b79ec-0669-44ef-99b2-e10838c1ef75")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b1b699-97e5-4537-b68c-ed54fa5eb0a8")
 	)
 	(wire
 		(pts
@@ -2405,16 +2557,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 21.59) (xy 109.22 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbe8a435-e7b4-4ac9-8f0d-35aaabdc5ce6")
-	)
-	(wire
-		(pts
 			(xy 45.72 88.9) (xy 38.1 88.9)
 		)
 		(stroke
@@ -2425,6 +2567,26 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 101.6) (xy 148.59 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d24f6299-4591-40da-a0aa-67d5593d4f46")
+	)
+	(wire
+		(pts
+			(xy 165.1 104.14) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da51b205-8d49-4539-b6d6-bad035bbc6af")
+	)
+	(wire
+		(pts
 			(xy 38.1 88.9) (xy 38.1 90.17)
 		)
 		(stroke
@@ -2432,6 +2594,16 @@
 			(type default)
 		)
 		(uuid "decd7f0a-c850-450c-857d-f1692a331031")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 77.47 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd05c9e-be60-4852-98d6-2a22dae4e209")
 	)
 	(wire
 		(pts
@@ -2465,6 +2637,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 57.15) (xy 118.11 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7837d45-643f-43e3-9f7d-615da5d2f198")
+	)
+	(wire
+		(pts
 			(xy 38.1 80.01) (xy 38.1 77.47)
 		)
 		(stroke
@@ -2483,18 +2665,108 @@
 		)
 		(uuid "edeaabc0-61c6-4abb-89f3-f9d2ccc8782b")
 	)
+	(wire
+		(pts
+			(xy 85.09 57.15) (xy 77.47 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee65a497-096f-49ee-864b-1de028c8e66b")
+	)
+	(wire
+		(pts
+			(xy 77.47 69.85) (xy 77.47 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03010b8-84a0-4230-b4ae-fc067a96c487")
+	)
+	(wire
+		(pts
+			(xy 133.35 101.6) (xy 138.43 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fe148b-3457-47b1-bcc8-0c19d75a98df")
+	)
+	(wire
+		(pts
+			(xy 78.74 87.63) (xy 78.74 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff1af69-fbc2-4e9f-8119-e9cad3109d9e")
+	)
+	(label "SMPSLXL"
+		(at 146.05 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "034e4717-e7cc-4d9d-922d-d42c72d7a33d")
+	)
+	(label "SMPSLX"
+		(at 133.35 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "954dfd7d-a24a-48cd-8480-178273171ba1")
+	)
+	(label "SMPSFB"
+		(at 137.16 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "aea1c795-084b-4d4f-95e7-355345026596")
+	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 31.75 0)
+		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
+		(at 78.74 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00f3a7d3-2609-4435-94b0-79db3b01226c")
-		(property "Reference" "#PWR08"
-			(at 109.22 38.1 0)
+		(uuid "0299004b-3a8e-44f3-b2dd-37175b448e55")
+		(property "Reference" "C9"
+			(at 78.994 82.042 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 78.994 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 78.74 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2502,17 +2774,96 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 36.83 0)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 78.74 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00810"
+			(at 78.74 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 82.55 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 82.55 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf521fd0-9b03-4686-a56c-88b4741148ab")
+		)
+		(pin "1"
+			(uuid "a391a25b-942d-4850-a8b5-2176102e5495")
+		)
+		(instances
+			(project "STM32_KiCAD_Bluetooth"
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 77.47 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05cfbdc5-ef26-44db-a0cf-9120edcb8153")
+		(property "Reference" "#PWR03"
+			(at 77.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 77.216 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 31.75 0)
+			(at 77.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2521,7 +2872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 31.75 0)
+			(at 77.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,8 +2880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 31.75 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 77.47 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,12 +2890,110 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b7505de-62a4-4356-8482-57c28ad41df1")
+			(uuid "fe60beec-48c2-45e9-94da-bdc3b5b29789")
 		)
 		(instances
 			(project "STM32_KiCAD_Bluetooth"
 				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
-					(reference "#PWR08")
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:4.7uF_0603_35V_20%")
+		(at 165.1 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19de49f5-929a-4b3f-9e64-717de2d4d20e")
+		(property "Reference" "C11"
+			(at 165.354 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 165.1 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 165.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-14106"
+			(at 165.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 168.91 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 168.91 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5469de51-c8b4-4a39-a6a7-f502f6f6b70f")
+		)
+		(pin "1"
+			(uuid "a0aad750-d803-416d-a2fc-fcdccd9b7856")
+		)
+		(instances
+			(project "STM32_KiCAD_Bluetooth"
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2649,82 +3098,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 97.79 19.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d1feddf-2c65-4027-bb41-edf253a2be1d")
-		(property "Reference" "#PWR010"
-			(at 97.79 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 97.028 15.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 97.79 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7c1b47e-8268-453b-9621-91abf9c05c81")
-		)
-		(instances
-			(project "STM32_KiCAD_Bluetooth"
-				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 101.552 31.6777 0)
+		(at 118.11 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "256c4228-42b7-41a5-9e6d-0defa21e7c7d")
-		(property "Reference" "#PWR011"
-			(at 101.552 38.0277 0)
+		(uuid "31770bd5-4910-41cd-8b5d-f2725d139b41")
+		(property "Reference" "#PWR07"
+			(at 118.11 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2733,7 +3117,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 101.552 36.7577 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +3126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.552 31.6777 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2751,7 +3135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.552 31.6777 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2760,7 +3144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.552 31.6777 0)
+			(at 118.11 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2769,12 +3153,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7b5a4f8f-d82d-4d1b-9713-8dd0b0a37345")
+			(uuid "e502c653-2bf6-4aea-bdb7-9bf604396253")
 		)
 		(instances
 			(project "STM32_KiCAD_Bluetooth"
 				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
-					(reference "#PWR011")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2879,6 +3263,238 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L")
+		(at 152.4 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d705edb-1a54-444b-ba78-f82c8d31ba93")
+		(property "Reference" "L2"
+			(at 152.4 99.822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uH"
+			(at 152.4 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cc195ea-a39a-4541-91ec-da2d13fe379b")
+		)
+		(pin "1"
+			(uuid "3cecce8d-66a0-4b37-bed0-d132030bfe0a")
+		)
+		(instances
+			(project ""
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 142.24 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49321ed1-591f-4b42-9cb4-09187e97817a")
+		(property "Reference" "L1"
+			(at 142.24 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nH"
+			(at 141.986 102.616 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "828c15d5-9a03-44b0-9491-01ec4e1da536")
+		)
+		(pin "1"
+			(uuid "1d5777d6-a164-443b-a0b4-0c4d2f8514f9")
+		)
+		(instances
+			(project ""
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
+		(at 118.11 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54686796-1ac3-4233-9c91-e1ae4dd56e98")
+		(property "Reference" "C10"
+			(at 118.364 60.452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 118.364 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 118.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00810"
+			(at 118.11 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 121.92 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 121.92 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e128f7a-94e1-4807-9a69-e1072d18acc2")
+		)
+		(pin "1"
+			(uuid "b343e0c0-4505-4aa9-9762-bb964a8a4f8a")
+		)
+		(instances
+			(project "STM32_KiCAD_Bluetooth"
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
 		(at 52.07 83.82 0)
 		(unit 1)
@@ -2977,34 +3593,16 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Capacitor:1.0uF_0603_16V_10%")
-		(at 101.6 25.4 0)
+		(lib_id "power:+3.3V")
+		(at 118.11 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "608ca34b-4516-4f5e-9b8b-354249a36c2d")
-		(property "Reference" "C7"
-			(at 101.6 23.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.0uF"
-			(at 101.854 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
-			(at 101.6 36.83 0)
+		(uuid "5505c935-e494-432f-b6be-0caf91e87aaa")
+		(property "Reference" "#PWR05"
+			(at 118.11 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3012,8 +3610,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 101.6 39.37 0)
+		(property "Value" "+3.3V"
+			(at 117.856 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3021,8 +3627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 101.6 44.45 0)
+		(property "Datasheet" ""
+			(at 118.11 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,45 +3636,22 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CAP-13930"
-			(at 100.33 41.91 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 118.11 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 105.41 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 105.41 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "473d7b68-1b80-414c-9de9-31e2fd2fb46b")
-		)
-		(pin "2"
-			(uuid "596f8ca3-044a-41e6-ae83-743c6feb991e")
+			(uuid "f2bd600b-8aeb-4c4d-a91d-d9b95cef4a12")
 		)
 		(instances
-			(project ""
+			(project "STM32_KiCAD_Bluetooth"
 				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
-					(reference "C7")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -3136,6 +3719,238 @@
 			(project ""
 				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6683be97-5d01-4dba-bd19-6d5dd1006f12")
+		(property "Reference" "#PWR08"
+			(at 165.1 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdab94eb-4071-4112-829c-9b25dfa41690")
+		)
+		(instances
+			(project "STM32_KiCAD_Bluetooth"
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e605ffa-798a-4200-b316-ef76a56d58f6")
+		(property "Reference" "#PWR04"
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a22d25b-719c-49a4-89f9-0a0ce43e5f73")
+		)
+		(instances
+			(project "STM32_KiCAD_Bluetooth"
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:4.7uF_0603_35V_20%")
+		(at 77.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f831b00-1a04-4496-97d6-8c0e35f5c8d6")
+		(property "Reference" "C7"
+			(at 77.724 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 77.47 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 77.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-14106"
+			(at 77.47 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "35V"
+			(at 81.28 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 81.28 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac7d9e97-82b3-44e6-8b5e-26e6361ecde2")
+		)
+		(pin "1"
+			(uuid "fc00ae76-4490-43db-aa92-dd8081976a40")
+		)
+		(instances
+			(project ""
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3234,104 +4049,6 @@
 			(project "STM32_KiCAD_Bluetooth"
 				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Capacitor:1.0uF_0603_16V_10%")
-		(at 109.22 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a207f669-23c1-4f69-b19a-1a30bdea8b84")
-		(property "Reference" "C8"
-			(at 109.22 23.368 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 109.474 27.686 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
-			(at 109.22 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
-			(at 109.22 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 109.22 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CAP-13930"
-			(at 107.95 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 113.03 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10%"
-			(at 113.03 29.2099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e91eeaf4-5934-4083-93ab-0433e067f3e5")
-		)
-		(pin "2"
-			(uuid "de6331b4-369c-4e6f-ba24-f21e99f6a221")
-		)
-		(instances
-			(project "STM32_KiCAD_Bluetooth"
-				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -3873,6 +4590,104 @@
 			(project ""
 				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
+		(at 85.09 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8d6039a-8388-4af1-a2f0-693416cfc862")
+		(property "Reference" "C8"
+			(at 85.344 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 85.344 65.786 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 85.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 85.09 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00810"
+			(at 85.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 88.9 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 88.9 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63d79619-33c6-4830-a1d9-828ca17e28d3")
+		)
+		(pin "1"
+			(uuid "cc21c9bf-3858-408f-952a-7671427cf0eb")
+		)
+		(instances
+			(project "STM32_KiCAD_Bluetooth"
+				(path "/6a08e6fd-d096-4b1e-b5a5-e399c1ff7184"
+					(reference "C8")
 					(unit 1)
 				)
 			)
